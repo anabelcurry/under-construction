@@ -1,33 +1,25 @@
 :root {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light;
-  color: #3F3532;
-  background-color: #886974;
-}
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-.dark {
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light;
-  color: #473C38;
-  background-color: #EAE8A9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   font-weight: 500;
-  margin: 1em;
-  color: #B6BF8A;
-  background: #595E64;
+  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #595E64;
-  background: #B6BF8A;
+  color: #535bf2;
 }
 
 body {
@@ -50,12 +42,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #A04D55;
+  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #DFDC6D;
+  border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
