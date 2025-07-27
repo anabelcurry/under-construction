@@ -1,5 +1,5 @@
 import './App.css'
-import tvAnimation from './assets/under-constructionTV.gif'
+import tvAnimation from './assets/under-constructionTV-sm.gif'
 import resume from './assets/Anabel_Curry_QA engineer_resum.pdf'
 
 function App() {
