@@ -23,11 +23,13 @@ function App() {
         </a>
                 <a 
           href='https://www.linkedin.com/in/anabel-curry-28476b176/'
+          rel="noopener noreferrer"
           target="_blank"
         >
           <button>linkedin</button>
         </a>        <a 
           href="https://www.mixcloud.com/anabelcurry/" 
+          rel="noopener noreferrer"
           target='_blank'
         >
           <button>music?</button>
