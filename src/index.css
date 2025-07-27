@@ -11,9 +11,9 @@
 a {
   font-weight: 500;
   margin: 1em;
-  color: #B6BF8A;
+  color: #B6BF8A !important; 
   background: #595E64;
-  text-decoration: inherit;
+  text-decoration: none !important; 
 }
 a:hover {
   color: #595E64;
